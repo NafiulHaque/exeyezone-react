@@ -1,0 +1,132 @@
+.header-1{
+    background-color: #1051a2;
+    height: 30px;
+}
+.header-1 .container,
+.header-1 .row{
+    height: 100%;
+}
+.header-1 .text{
+    font-size: 10px;
+    color: #ffffff;
+    height: 100%;
+}
+.header-1 .icon-grp a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header-main{
+    position: relative;
+    height: 90vh;
+}
+
+.header-2 .items{
+    list-style: none;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    font-weight: 700;
+    float: right;
+   
+    
+}
+.header-2 .items .item{
+    padding: 12px;
+}
+.header-2 .items .item :hover{
+    border-bottom: #ff0000 solid 3px;
+    padding-bottom: 16px;
+    color: #ff0000;
+    
+}
+.header-2 .logo{
+    height: 40px;
+    z-index: 5;
+    
+}
+.header-2{
+    height: 60px;
+    /* z-index: -2; */
+    padding-top: 10px;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+
+}
+.header-2::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    opacity: .8;
+    z-index: -2;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    height: 80px;
+    z-index: 10;
+    
+}
+.header-2 .items .item a {
+    text-decoration: none;
+    color: black;
+}
+.nav-items .nav-item{
+    align-content: space-between;
+    justify-content: space-between;
+}
+.hero .img{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    z-index: -1;
+    
+}
+.header-main .hero-text-main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background: transparent;
+    justify-content: center;
+    z-index: 1;
+    font-family: Poppins ,monospace,sans-serif;
+}
+.header-main .hero{
+    /* background-image: url("../images/Hero.jpg"); */
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.header-main .hero-text-main .bold-text{
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: .1;
+    text-shadow: #646464d5 2px 1px;
+}
+.header-main .hero-text-main .bold-text span:first-child{
+    color: red;
+}
+.header-main .hero-text-main .bold-text span:last-child{
+    color: #1051a2;
+}
+.header-main .hero-text-main .text{
+    color: #161b23;
+    font-weight: 400;
+}
