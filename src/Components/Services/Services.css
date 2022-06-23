@@ -1,0 +1,23 @@
+.card-ser{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.card-ser .icon{
+    font-size: 30px;
+    color: #ff0000;
+}
+.card-ser .text a {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1051a2;
+    font-size: 20px;
+    text-decoration: none;
+}
+.card-ser .text a:hover{
+    color: #ff0000;
+}
+.card-ser .text p{
+    color: #161b23 ;
+    word-spacing: 5px;
+}

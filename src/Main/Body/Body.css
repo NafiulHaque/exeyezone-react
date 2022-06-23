@@ -1,0 +1,7 @@
+/* desk image */
+.desking{
+    /* background-image: url("../images/desk.jpg"); */
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    }
