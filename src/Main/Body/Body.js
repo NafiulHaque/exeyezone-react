@@ -9,6 +9,7 @@ import Different from '../../Components/Different/Different';
 import BlueBur from '../../Components/BlueBur/BlueBur';
 import WorkingProcess from '../../Components/WorkingProcess/WorkingProcess';
 import Analytics from '../../Components/Analytics/Analytics';
+import LatestWork from '../../Components/LatestWork/LatestWork';
 
 const Body = () => {
     return (
@@ -26,6 +27,7 @@ const Body = () => {
             <BlueBur />
             <WorkingProcess />
             <Analytics />
+            <LatestWork />
         </div>
     )
 }
