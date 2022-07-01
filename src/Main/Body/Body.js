@@ -10,6 +10,7 @@ import BlueBur from '../../Components/BlueBur/BlueBur';
 import WorkingProcess from '../../Components/WorkingProcess/WorkingProcess';
 import Analytics from '../../Components/Analytics/Analytics';
 import LatestWork from '../../Components/LatestWork/LatestWork';
+import Question from '../../Components/Question/Question';
 
 const Body = () => {
     return (
@@ -28,6 +29,7 @@ const Body = () => {
             <WorkingProcess />
             <Analytics />
             <LatestWork />
+            <Question />
         </div>
     )
 }
