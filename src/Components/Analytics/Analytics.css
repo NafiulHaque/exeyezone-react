@@ -1,0 +1,14 @@
+.analytics .common-text{
+    align-items: flex-start;
+}
+.analytics .common-text p{
+    text-align: start;
+}
+.analytics .obj-img {
+    /* background-image: url(../images/VectorObj.png); */
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

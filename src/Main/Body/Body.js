@@ -7,6 +7,8 @@ import Services from '../../Components/Services/Services';
 import Counter from '../../Components/Counter/Counter';
 import Different from '../../Components/Different/Different';
 import BlueBur from '../../Components/BlueBur/BlueBur';
+import WorkingProcess from '../../Components/WorkingProcess/WorkingProcess';
+import Analytics from '../../Components/Analytics/Analytics';
 
 const Body = () => {
     return (
@@ -22,6 +24,8 @@ const Body = () => {
             <Counter />
             <Different />
             <BlueBur />
+            <WorkingProcess />
+            <Analytics />
         </div>
     )
 }
