@@ -6,6 +6,7 @@ import desking_img from "../../assets/images/desk.jpg";
 import Services from '../../Components/Services/Services';
 import Counter from '../../Components/Counter/Counter';
 import Different from '../../Components/Different/Different';
+import BlueBur from '../../Components/BlueBur/BlueBur';
 
 const Body = () => {
     return (
@@ -20,6 +21,7 @@ const Body = () => {
             <Services />
             <Counter />
             <Different />
+            <BlueBur />
         </div>
     )
 }

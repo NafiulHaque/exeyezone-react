@@ -1,0 +1,21 @@
+.bluebar{
+    /* background-image: url("../images/blue-bar.jpg"); */
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.bluebar .text{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+}
+.bluebar .text span{
+    font-weight: 700;
+}
+.bluebar .col-md-3 {
+    display: flex;
+    align-items: center;
+}
