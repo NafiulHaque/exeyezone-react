@@ -1,10 +1,10 @@
 import "./Counter.css";
 import React from 'react'
-
+import counter_img from "../../assets/images/counterImg.jpg";
 const Counter = () => {
     return (
 
-        <div className="counter-img my-4">
+        <div className="counter-img my-4" style={{ backgroundImage: `url(${counter_img})` }}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-3">

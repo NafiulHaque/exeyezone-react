@@ -1,5 +1,5 @@
 .counter-img{
-    background-image:" url('../images/counterImg.jpg')";
+    background-image:" url(../images/counterImg.jpg)";
     height: 200px;
     background-position: center;
     background-size: cover;

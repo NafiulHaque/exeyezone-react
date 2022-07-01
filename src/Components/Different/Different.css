@@ -1,0 +1,51 @@
+.different{
+    position: relative;
+    /* height: 600px; */
+    width: 100%;
+ }
+ .diff-img{
+     position: absolute;
+     /* background-image: "url('../images/girl-img.png')"; */
+     z-index: -1;
+     background-size: contain;
+     background-position: right;
+     top: -54px;
+     left: -43px;
+     overflow: none;
+     height: 110%;
+     width: 100%;
+     background-repeat: no-repeat;
+ }
+ .different .common-text{
+     justify-content: flex-start;
+     align-items: flex-start;
+ }
+ .different .common-text p{
+     text-align: start;
+ }
+ .different .items .item {
+     display: flex;
+     flex-direction: row;
+     gap: 20px;
+     z-index: 2;
+     padding: 10px 0;
+ }
+ .different .items .item .icon{
+ font-size: 40px;
+ color: #ff0000;
+ }
+ .different .items .item .text a{
+     color: #1051a2;
+     text-transform: uppercase;
+     font-size: 15px;
+     font-weight: 700;
+     text-decoration: none;
+ }
+ .different .items .item .text a:hover{
+     color: #ff0000;
+ }
+ .different .items .item .text p{
+     font-weight: 300;;
+     word-spacing: 5px;
+     color: #161b23;
+ }
