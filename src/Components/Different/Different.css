@@ -49,3 +49,17 @@
      word-spacing: 5px;
      color: #161b23;
  }
+
+ @media only screen  and (max-width:987px) {
+    .diff-img{
+        display: none;
+    }
+    .different .items{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .different .items .item{
+        flex:20% 20% 20%;
+    }
+ }

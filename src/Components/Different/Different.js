@@ -24,34 +24,36 @@ const Different = () => {
                                 aiores error harum non.</p>
                         </div>
                     </div>
-                    <div className="item">
-                        <div className="icon">
-                            <i className="fa fa-building" aria-hidden="true"></i>
+                    <div className='items'>
+                        <div className="item">
+                            <div className="icon">
+                                <i className="fa fa-building" aria-hidden="true"></i>
+                            </div>
+                            <div className="text">
+                                <a href="#">Strategy</a>
+                                <p>Lorem ipsum dolor sit la rem quasi corporis asperiores quos
+                                    aiores error harum non.</p>
+                            </div>
                         </div>
-                        <div className="text">
-                            <a href="#">Strategy</a>
-                            <p>Lorem ipsum dolor sit la rem quasi corporis asperiores quos
-                                aiores error harum non.</p>
+                        <div className="item">
+                            <div className="icon">
+                                <i className="fa fa-tasks" aria-hidden="true"></i>
+                            </div>
+                            <div className="text">
+                                <a href="#">Integrity</a>
+                                <p>Lorem ipsum dolor sit la rem quasi corporis asperiores quos
+                                    aiores error harum non.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="item">
-                        <div className="icon">
-                            <i className="fa fa-tasks" aria-hidden="true"></i>
-                        </div>
-                        <div className="text">
-                            <a href="#">Integrity</a>
-                            <p>Lorem ipsum dolor sit la rem quasi corporis asperiores quos
-                                aiores error harum non.</p>
-                        </div>
-                    </div>
-                    <div className="item">
-                        <div className="icon">
-                            <i className="fa fa-chart-bar" aria-hidden="true"></i>
-                        </div>
-                        <div className="text">
-                            <a href="#">Sustainablity</a>
-                            <p>Lorem ipsum dolor sit la rem quasi corporis asperiores quos
-                                aiores error harum non.</p>
+                        <div className="item">
+                            <div className="icon">
+                                <i className="fa fa-chart-bar" aria-hidden="true"></i>
+                            </div>
+                            <div className="text">
+                                <a href="#">Sustainablity</a>
+                                <p>Lorem ipsum dolor sit la rem quasi corporis asperiores quos
+                                    aiores error harum non.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

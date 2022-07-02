@@ -26,10 +26,10 @@ const Header = () => {
                         </div>
                         <div className="col-md-4">
                             <div className="icon-grp d-flex flex-row align-items-center justify-content-end gap-3">
-                                <a href="#"> <i className="fab fa-facebook-f" aria-hidden="true"></i></a>
-                                <a href="#"> <i className="fab fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i className="fab fa-linkedin" aria-hidden="true"></i></a>
-                                <a href="#"><i className="fab fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#" alt="link"> <i className="fab fa-facebook-f" aria-hidden="true"></i></a>
+                                <a href="#" alt="link"> <i className="fab fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#" alt="link"><i className="fab fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="#" alt="link"><i className="fab fa-instagram" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -38,41 +38,48 @@ const Header = () => {
             <div className="header-main" >
                 <div className="header-2">
                     <div className="container">
-                        <nav>
-                            <div className="row">
-                                <div className="col-md-3">
-                                    <a href="#">
-                                        <img className="logo" src={logo} alt="" />
-                                    </a>
-                                </div>
-                                <div className="col-md-9">
-                                    <ul className="items">
-                                        <li className="item"><a href="#">Home</a></li>
-                                        <li className="item"><a href="#">About</a></li>
-                                        <li className="item"><a href="#">Services</a></li>
-                                        <li className="item"><a href="#">Work</a></li>
-                                        <li className="item"><a href="#">Pricing</a></li>
-                                        <li className="item"><a href="#">Team</a></li>
-                                        <li className="item"><a href="#">Contact</a></li>
-                                    </ul>
-                                </div>
+
+                        <div className="navBar">
+                            <div className="navItem">
+                                <a href="#" alt="link">
+                                    <img className="logo" src={logo} alt="" />
+                                </a>
                             </div>
-                        </nav>
+                            <div className="navItem">
+                                <ul className="items">
+                                    <li className="item"><a href="#" alt="link">Home</a></li>
+                                    <li className="item"><a href="#" alt="link">About</a></li>
+                                    <li className="item"><a href="#" alt="link">Services</a></li>
+                                    <li className="item"><a href="#" alt="link">Work</a></li>
+                                    <li className="item"><a href="#" alt="link">Pricing</a></li>
+                                    <li className="item"><a href="#" alt="link">Team</a></li>
+                                    <li className="item"><a href="#" alt="link">Contact</a></li>
+                                </ul>
+
+                            </div>
+                            <div className="nav_icon navItem" >
+                                <i className="fa fa-bars"></i>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div className="hero-text-main">
 
                     <div className="container">
-                        <h1 className="bold-text">
-                            <span>Expect</span> nothing <br />
-                            less than <span>perfect</span>
-                        </h1>
-                        <p className="text w-50">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit nulla quisquam quo deleniti
-                            dignissimos nisi saepe repudiandae suscipit atque error voluptates molestias placeat, eaque
-                            repellat
-                            ipsam quam. Esse, voluptate asperiores.
-                        </p>
+                        <div className="hero-text">
+                            <h1 className="bold-text">
+                                <span>Expect</span> nothing <br />
+                                less than <span>perfect</span>
+                            </h1>
+                            <p className="text w-50">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit nulla quisquam quo deleniti
+                                dignissimos nisi saepe repudiandae suscipit atque error voluptates molestias placeat, eaque
+                                repellat
+                                ipsam quam. Esse, voluptate asperiores.
+                            </p>
+
+                        </div>
                         <a className="btn btn-outline-danger hero-btn" href="#" role="button">GET FREE QOUTE</a>
 
                     </div>
