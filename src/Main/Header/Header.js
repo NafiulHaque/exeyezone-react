@@ -7,7 +7,7 @@ import logo from "../../assets/images/logo.png";
 
 
 
-const Header = () => {
+const Header = ({ navbarOpen, closeNavBar, openNavBar }) => {
     return (
         <div className="Header">
             <div className="header-1">
@@ -45,8 +45,12 @@ const Header = () => {
                                     <img className="logo" src={logo} alt="" />
                                 </a>
                             </div>
-                            <div className="navItem">
-                                <ul className="items">
+                            <div className={navbarOpen ? "nav_responsive" : "navItem"}>
+
+                                <ul className={navbarOpen ? "nav_display" : "items"}>
+                                    <div className="nav_icon navItem" onClick={() => closeNavBar()} >
+                                        <i className="fa fa-times"></i>
+                                    </div>
                                     <li className="item"><a href="#" alt="link">Home</a></li>
                                     <li className="item"><a href="#" alt="link">About</a></li>
                                     <li className="item"><a href="#" alt="link">Services</a></li>
@@ -57,7 +61,7 @@ const Header = () => {
                                 </ul>
 
                             </div>
-                            <div className="nav_icon navItem" >
+                            <div className="nav_icon navItem" onClick={() => openNavBar()} >
                                 <i className="fa fa-bars"></i>
                             </div>
                         </div>
