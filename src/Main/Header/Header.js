@@ -48,7 +48,7 @@ const Header = ({ navbarOpen, closeNavBar, openNavBar }) => {
                             <div className={navbarOpen ? "nav_responsive" : "navItem"}>
 
                                 <ul className={navbarOpen ? "nav_display" : "items"}>
-                                    <div className="nav_icon navItem" onClick={() => closeNavBar()} >
+                                    <div className="nav_icon close_icon" onClick={() => closeNavBar()} >
                                         <i className="fa fa-times"></i>
                                     </div>
                                     <li className="item"><a href="#" alt="link">Home</a></li>

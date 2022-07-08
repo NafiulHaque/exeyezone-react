@@ -7,13 +7,13 @@ const BlueBur = () => {
         <div className="bluebar" style={{ backgroundImage: `url(${blue_bar_img})` }}>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-7">
+                    <div className="col-md-7 col-sm-7">
                         <h3 className="text">LOOKING FOR A QUALITY AND AFFORDABLE <span>website
                             or software</span> FOR YOUR organization?</h3>
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-md-2 col-sm-2">
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 col-sm-3">
                         <a className="btn btn-outline-light btn-lg" href="#" role="button">GET FREE QUOTE</a>
                     </div>
                 </div>

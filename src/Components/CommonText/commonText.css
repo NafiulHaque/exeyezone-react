@@ -19,3 +19,10 @@
 .common-text a{
     text-transform: uppercase;
 }
+@media only screen and (max-width: 600px) {
+    .common-text h3{
+        font-size: 1.2em;
+        text-align: center;
+    }
+    
+}

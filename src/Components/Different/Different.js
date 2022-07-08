@@ -13,18 +13,19 @@ const Different = () => {
                 <CommonText />
                 {/* <!---xx--- CommonText ---xx---> */}
 
-                <div className="items w-50">
-                    <div className="item">
-                        <div className="icon">
-                            <i className="fa fa-trophy" aria-hidden="true"></i>
-                        </div>
-                        <div className="text">
-                            <a href="#">Best quality</a>
-                            <p>Lorem ipsum dolor sit la rem quasi corporis asperiores quos
-                                aiores error harum non.</p>
-                        </div>
-                    </div>
+                <div className="items">
+
                     <div className='items'>
+                        <div className="item">
+                            <div className="icon">
+                                <i className="fa fa-trophy" aria-hidden="true"></i>
+                            </div>
+                            <div className="text">
+                                <a href="#">Best quality</a>
+                                <p>Lorem ipsum dolor sit la rem quasi corporis asperiores quos
+                                    aiores error harum non.</p>
+                            </div>
+                        </div>
                         <div className="item">
                             <div className="icon">
                                 <i className="fa fa-building" aria-hidden="true"></i>

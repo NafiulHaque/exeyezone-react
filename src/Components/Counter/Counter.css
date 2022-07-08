@@ -41,3 +41,19 @@ z-index: -1;
 .counter-img .imoji-grp .text p{
     font-weight: 300;
 }
+
+@media only screen and (max-width: 600px) {
+    .counter-img .imoji-grp .icon{
+        font-size: 2.0em;
+    }
+    .counter-img .imoji-grp .text{
+        line-height: 0;
+    }
+    .counter-img .imoji-grp .text h3{
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+    .counter-img .imoji-grp .text p{
+        font-weight: 300;
+    }
+}

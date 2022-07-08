@@ -149,7 +149,7 @@
 .nav_responsive{
     display: inline!important;
     z-index: 9999 !important;
-    right: 0 !important;
+    right: 70px !important;
     position: absolute;
     /* background-color: #ff0000; */
     margin-top: 250px;
@@ -182,8 +182,9 @@
     .navBar .nav_icon{
         display: inline;
     }
-    .navBar .navItem:nth-child(2){
-       
+    .navBar .close_icon{
+       position: relative;
+       left: 70px;
     }
     .header-2 .items{
         flex-direction: column;
@@ -211,5 +212,32 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+    }
+    .header-main{
+        height: 60vh;
+    }
+    .header-main .hero{
+        height: 60vh;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .header-main .hero-text{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: space-between; */
+    }
+    .header-main .hero-text-main .bold-text{
+        font-size: .9em;
+    }
+    .header-main .hero-text-main .text{
+        font-size: .6em;
+    }
+   
+    .header-main{
+        height: 50vh;
+    }
+    .header-main .hero{
+        height: 50vh;
     }
 }

@@ -7,7 +7,7 @@ const Counter = () => {
         <div className="counter-img my-4" style={{ backgroundImage: `url(${counter_img})` }}>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-3 col-sm-6">
                         <div className="imoji-grp">
                             <div className="icon">
                                 <i className="far fa-smile" aria-hidden="true"></i>
@@ -18,7 +18,7 @@ const Counter = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 col-sm-6">
                         <div className="imoji-grp">
                             <div className="icon">
                                 <i className="far fa-thumbs-up" aria-hidden="true"></i>
@@ -29,7 +29,7 @@ const Counter = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 col-sm-6">
                         <div className="imoji-grp">
                             <div className="icon">
                                 <i className="fa fa-tag" aria-hidden="true"></i>
@@ -40,7 +40,7 @@ const Counter = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 col-sm-6">
                         <div className="imoji-grp">
                             <div className="icon">
                                 <i className="fa fa-paperclip" aria-hidden="true"></i>
